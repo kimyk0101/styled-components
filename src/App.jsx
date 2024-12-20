@@ -1,5 +1,6 @@
 import StyledComponents from "./styled/StyledComponents";
 import PropsComponents from "./styled/PropsComponents";
+import StyledDiv from "./styled/UserPropsComponents";
 
 function App() {
   return (
@@ -7,7 +8,10 @@ function App() {
       <h1>StyledComponents</h1>
       <StyledComponents />
       <h1>PropsComponents</h1>
-      <PropsComponents />
+      {/* <PropsComponents /> */}
+      <h1>UserPropsComponents</h1>
+      <StyledDiv dark={false} />
+      <StyledDiv dark={true} />
     </div>
   );
 }
